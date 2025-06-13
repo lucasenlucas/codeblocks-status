@@ -5,6 +5,13 @@ permissions:
   actions: write
   contents: write
 
+on:
+  graphs:
+    - workflow_dispatch
+    - workflow_call
+    - repository_dispatch
+    - schedule
+
 sites:
   - name: codeblocks.nl
     url: https://www.codeblocks.nl
