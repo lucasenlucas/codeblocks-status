@@ -1,6 +1,10 @@
 owner: lucasenlucas
 repo: codeblocks-status
 
+permissions:
+  actions: write
+  contents: write
+
 sites:
   - name: codeblocks.nl
     url: https://www.codeblocks.nl
